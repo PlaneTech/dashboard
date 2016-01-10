@@ -1,45 +1,53 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
+</head>
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+<body>
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            {{--
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand">Dash</h3>
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
+                    <nav>
+                        <ul class="nav masthead-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
+            --}}
+
+            <div class="inner cover">
+                <h1 class="cover-heading">Pilot Dashboard</h1>
+                <p class="lead">Coming soon.</p>
+            </div>
+
+            {{--
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>&copy; 2016 PilotTech</p>
+                </div>
+            </div>
+            --}}
+
         </div>
-    </body>
+    </div>
+</div>
+
+<script src="{{ elixir('js/app.js') }}"></script>
+
+</body>
+
 </html>
